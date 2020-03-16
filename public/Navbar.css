@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 700px;
+    background-color: rgb(184, 13, 116);
+    position: absolute;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: rgb(240, 64, 126);
+    color: white;
+}
+
+.titleNavbar {
+    text-align: center;
+    color: white;
+}
+
+input {
+    background-color: rgb(184, 13, 116);
+    padding: 8px 16px;
+    border-style: none;
+    color: white;
+    width: 100%;
+    text-align: left;
+}
+
+input:hover {
+    background-color: rgb(240, 64, 126);
+    color: white;
+    border-style: none;
+}
+
+input:active {
+    border-color: white;
+}

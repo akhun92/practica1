@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    position: absolute;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.titleIndex {
+    text-align: center;
+    color: rgb(240, 64, 126);
+}

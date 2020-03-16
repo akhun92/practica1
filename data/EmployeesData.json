@@ -1,0 +1,51 @@
+{
+    "employees": [{
+            "name": "Adrià Soler Caballero",
+            "date": "1992-04-09",
+            "position": "WaterBoy",
+            "photo": "../assets/photo/adria.jpg",
+            "salary": "900",
+            "cv": "../assets/video/adria.mp4"
+        },
+        {
+            "name": "Eros Haro Sanchéz",
+            "date": "1988-05-24",
+            "position": "Técnico",
+            "photo": "../assets/photo/eros.jpg",
+            "salary": "1700",
+            "cv": "../assets/video/eros.mp4"
+        },
+        {
+            "name": "Adrià Soler Caballero",
+            "date": "1992-04-09",
+            "position": "WaterBoy",
+            "photo": "../assets/photo/adria.jpg",
+            "salary": "900",
+            "cv": "../assets/video/adria.mp4"
+        },
+        {
+            "name": "Eros Haro Sanchéz",
+            "date": "1988-05-24",
+            "position": "Técnico",
+            "photo": "../assets/photo/eros.jpg",
+            "salary": "1700",
+            "cv": "../assets/video/eros.mp4"
+        },
+        {
+            "name": "Adrià Soler Caballero",
+            "date": "1992-04-09",
+            "position": "WaterBoy",
+            "photo": "../assets/photo/adria.jpg",
+            "salary": "900",
+            "cv": "../assets/video/adria.mp4"
+        },
+        {
+            "name": "Eros Haro Sanchéz",
+            "date": "1988-05-24",
+            "position": "Técnico",
+            "photo": "../assets/photo/eros.jpg",
+            "salary": "1700",
+            "cv": "../assets/video/eros.mp4"
+        }
+    ]
+}
