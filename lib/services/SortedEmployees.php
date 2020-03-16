@@ -24,9 +24,9 @@ class SortedEmployees {
 		return $employeesArrayCompare;
 	}
 
-	public function sortedEmployeesByMultimedia($employeesArrayCompare) {
+	public function sortedEmployeesBySalary($employeesArrayCompare) {
 		usort($employeesArrayCompare, function($a, $b){
-			return strcmp($a->getPhoto(), $b->getPhoto() && $a->getCv(), $b->getCv());
+			return strcmp($a->getSalary(), $b->getSalary());
 		});
 		return $employeesArrayCompare;
 	}

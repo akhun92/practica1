@@ -16,4 +16,8 @@
       <input type="submit" value="Sueldo">
       <input type="text" value="salary" style="display: none" name="sortedBy">
     </form></li>
+    <li><form action="index.php">
+      <input type="submit" value="Sin ordenación">
+      <input type="text" value="default" style="display: none" name="sortedBy">
+    </form></li>
 </ul>

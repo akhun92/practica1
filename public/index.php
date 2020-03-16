@@ -19,7 +19,6 @@
             include "EmployeesTable.php";?>
             <?php EmployeesTable::getEmployeesTable($_GET["sortedBy"])?>
         </table>
-
         <nav><?php include "Navbar.php";?></nav>   
     </div>
 </body>
