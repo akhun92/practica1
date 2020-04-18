@@ -11,7 +11,7 @@ class SortedEmployees {
 	}
 
 	public function sortedEmployeesByDate($employeesArrayCompare) {
-		usort($employeesArrayCompare, function($b, $a){
+		usort($employeesArrayCompare, function($a, $b){
 			return strcmp($a->getDate(), $b->getDate());
 		});
 		return $employeesArrayCompare;
@@ -26,7 +26,7 @@ class SortedEmployees {
 
 	public function sortedEmployeesBySalary($employeesArrayCompare) {
 		usort($employeesArrayCompare, function($a, $b){
-			return strcmp($a->getSalary(), $b->getSalary());
+			return $a->getSalary() < $b->getSalary();
 		});
 		return $employeesArrayCompare;
 	}

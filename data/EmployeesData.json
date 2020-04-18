@@ -46,6 +46,22 @@
             "photo": "../assets/photo/eros.jpg",
             "salary": "1700",
             "cv": "../assets/video/eros.mp4"
+        },
+        {
+            "name": "Aitor Tilla",
+            "date": "2000-01-01",
+            "position": "Progamador Junior",
+            "photo": "../assets/photo/eros.jpg",
+            "salary": "1500",
+            "cv": "../assets/video/eros.mp4"
+        },
+        {
+            "name": "Aitor Menta",
+            "date": "2000-01-02",
+            "position": "Progamador Senior",
+            "photo": "../assets/photo/eros.jpg",
+            "salary": "2200",
+            "cv": "../assets/video/eros.mp4"
         }
     ]
 }

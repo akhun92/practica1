@@ -1,7 +1,7 @@
 <?php
 
 require_once(__DIR__.'/../model/EmployeeModel.php');
-require_once(__DIR__.'/../services/SortedEmployees.php');
+require_once(__DIR__.'/services/SortedEmployees.php');
 
 class EmployeesController{
 
@@ -11,7 +11,7 @@ class EmployeesController{
 		$data = json_decode($file);
 
 		foreach ($data->employees as $emp) {
-			$employee = new EmployeeModel($emp->name, $emp->date, $emp->position, $emp->photo, $emp->salary, $emp->cv);
+			$employee = new EmployeeModel($emp->id ,$emp->name, $emp->date, $emp->position, $emp->photo, $emp->salary, $emp->cv);
 			array_push($employeesArray, $employee);
 		}
 
@@ -34,8 +34,11 @@ class EmployeesController{
 			case "salary":
 					return $sorter->sortedEmployeesBySalary($employeesArrayCompare);
 					break;
+			case "nonSorted":
+					return $employeesArrayCompare;
+					break; 
 			default:
-					return $employeesArrayCompare; 
+					return $sorter->sortedEmployeesByPosition($employeesArrayCompare); 
 		 }
 
 	}

@@ -8,14 +8,14 @@ ul {
     position: absolute;
 }
 
-li a {
+li {
     display: block;
     color: white;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-li:hover {
+li .ButtonNav:hover {
     background-color: rgb(240, 64, 126);
     color: white;
 }
@@ -25,7 +25,7 @@ li:hover {
     color: white;
 }
 
-input {
+.ButtonNav {
     background-color: rgb(184, 13, 116);
     padding: 8px 16px;
     border-style: none;
@@ -34,12 +34,6 @@ input {
     text-align: left;
 }
 
-input:hover {
-    background-color: rgb(240, 64, 126);
-    color: white;
-    border-style: none;
-}
-
-input:active {
+.ButtonNav:active {
     border-color: white;
 }
